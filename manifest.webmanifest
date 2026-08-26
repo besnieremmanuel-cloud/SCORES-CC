@@ -1,0 +1,18 @@
+{
+  "name": "Scores périopératoires — chirurgie cardiaque",
+  "short_name": "Scores CCV",
+  "description": "EuroSCORE II, POBS-Card, WILL-BLEED, Cleveland Clinic Score et Simplified Renal Index à partir d'une saisie unique. Hors ligne, aucune donnée transmise.",
+  "lang": "fr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ECF0EF",
+  "theme_color": "#101F26",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
