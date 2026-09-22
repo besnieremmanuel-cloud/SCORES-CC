@@ -1,7 +1,7 @@
 /* Scores périopératoires — service worker.
    Cache-first sur un jeu de fichiers statiques figés.
    Incrémenter CACHE à chaque modification d'index.html. */
-const CACHE = "ccv-scores-v1.6";
+const CACHE = "ccv-scores-v3";
 const ASSETS = ["./","./index.html","./manifest.webmanifest","./icon.svg",
                 "./icon-192.png","./icon-512.png","./icon-maskable-512.png"];
 self.addEventListener("install", e => {
